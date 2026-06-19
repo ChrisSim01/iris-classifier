@@ -27,3 +27,12 @@ from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
+print("Save the confusion matrix as a png image")
+import matplotlib.pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay
+disp = ConfusionMatrixDisplay.from_predictions(y_test, y_pred)
+disp.figure_.savefig('outputs/confusion_matrix.png', dpi=300, bbox_inches='tight')
+
+print("Save the model as a joblib file")
+import joblib
+joblib.dump(model, 'outputs/iris_classifier_model.joblib')
