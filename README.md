@@ -13,4 +13,4 @@ pip install -r requirements.txt
 python src/train.py
 
 ## Project structure
-See ![alt text](project_structure.png)
+See project_structure.png
