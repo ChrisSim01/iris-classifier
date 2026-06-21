@@ -11,6 +11,7 @@ python -m venv venv
 venv/scripts/activate
 pip install -r requirements.txt
 python src/train.py
+```
 
 ## Project structure
 See project_structure.png
