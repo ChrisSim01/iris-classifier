@@ -5,7 +5,7 @@ End-to-end ML example from Digital Marketing Mastery Module -> builds a decision
 
 ## Quick start
 ```bash
-git clone https://github/ChrisSim01/iris-classifier.git
+git clone https://github.com/ChrisSim01/iris-classifier.git
 cd iris-classifier
 python -m venv venv 
 venv/scripts/activate
